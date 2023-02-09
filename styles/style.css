@@ -1,0 +1,176 @@
+:root{
+    --cor-principal:#EA1C81; 
+    --cor-topo:#D8F1FB;
+    --cor-preta:black;
+    --cor-branca:white;
+    --cor-fundo: #FAFBFF;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    transition: all 1s
+    /* trasition all coloca uma transição nos links em que selecionamos */
+    /* (*) = pega TUDO */
+}
+
+#header{
+    /* (#) é um id e (.) é uma class */
+    background-color: var(--cor-topo);
+    display: flex;
+    /* justify deixar a logo do cabeçalho separados dos links */
+    justify-content: space-between;
+    
+    align-items: center;
+    /* aling-items deixa os items centralizados */
+
+}
+
+#header nav a{
+    text-decoration: none;
+    /* text decoration:none, tira a decoração _ */
+    color: var(--cor-preta);
+    
+}
+
+#header nav a:hover{
+    background-color: var(--cor-principal);
+    
+    color: var(--cor-branca);
+    border-radius: 20px;
+    /* border deixa o paddindg com a borda redonda */
+    
+}
+
+.marginlateral{
+    margin: 0px 20px;
+}
+
+main #banner{
+    background-image: url(../img/Banner.png);
+    height: calc(100vh - 89px);
+    /* vh, porcentagem */
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: var(--cor-principal);
+    
+}
+
+main #banner button{
+    background-color: var(--cor-principal);
+    color: var(--cor-branca);
+    /* color = coloca uma cor  - var - vc salva uma cor e pega ela */
+    
+    border: none;
+    border-radius: 20px;
+    
+}
+main #banner button:hover{
+    cursor: pointer;
+    font-size: large;
+    
+    
+}
+
+.marginCimaBaixo{
+    margin: 20px 0px;
+}
+
+main #banner h1{
+    color: var(--cor-principal);
+    font-size: 2em;
+}
+
+#header, main #banner button, #header nav a:hover, #bemVindo div{
+    padding: 15px;
+}
+
+#bemVindo{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+#bemVindo #bemVindo-boaVindas h3{
+    color: var(--cor-principal);
+    margin-bottom: 10px;
+}
+main #beneficios{
+    background-color: var(--cor-fundo);
+}
+
+main #beneficios{
+    color: var(--cor-principal);
+}
+
+
+main #beneficios h3{
+    font-size: 2em;
+}
+
+main #beneficios p{
+    color: var(--cor-preta);
+    margin: 10px;
+}
+
+main #beneficios #beneficios-servicos{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    
+    
+}
+
+#rodape{
+    background-color: var(--cor-topo);
+    
+}
+main #form #form-formulario form{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+main #form #form-formulario form input{
+    display: block;
+    /* display block deixa o bagulho em bloco */
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    width: 350px;
+    
+    
+}
+
+main #form #form-formulario form button{
+    padding: 8px;
+    border: none;
+    background-color: var(--cor-principal);
+    color: var(--cor-branca);
+    border-radius: 10px;
+    width: 380px;
+    cursor: pointer;
+}
+
+main #form #form-formulario{
+    background-image: url(../img/cachorro.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    /* deixa no meio=backsize contain */
+}
+
+main #beneficios #beneficios-nossosbeneficios,
+main #beneficios #beneficios-servicos,
+main #form #form-texto,
+#rodape{
+    text-align: center;
+}
+

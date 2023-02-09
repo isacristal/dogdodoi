@@ -1,0 +1,23 @@
+:root{
+    --cor-azulzinho: #D8F1FB;
+
+
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    transition: all 1s;
+}
+
+#banner{
+    background-color: var(--cor-azulzinho);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#banner nav a{
+    
+
+}

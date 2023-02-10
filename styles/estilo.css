@@ -2,7 +2,8 @@
     --cor-azulzinho: #D8F1FB;
     --cor-preta: #000000;
     --cor-rosa:#EA1C81;
-
+    --cor-branca: #FFFFFF;
+    --cor-clara:#b0b0b0;
 }
 
 *{
@@ -43,10 +44,33 @@ main #increvase-formulario{
 main #increvase-formulario button{
     margin: 10px;
     /* display block deixa o bagulho em bloco */
-    padding: 8px;
+    padding: 6px;
     border: none;
     outline: none;
-    border-bottom: 1px solid black;
     border-radius: 10px;
     width: 350px;
+    background-color: var(--cor-rosa);
+    color: var(--cor-branca);
+}
+
+main .inscreva-formulario-email input{
+    padding: 6px;
+    /* border: none; */
+    outline: none;
+    border-radius: 8px;
+    width: 350px;
+    margin-bottom: 10px;
+    border: 1px solid var(--cor-clara);
+    
+}
+
+main .inscreva-formulario-senha input{
+    padding: 6px;
+    /* border: none; */
+    outline: none;
+    border-radius: 8px;
+    width: 350px;
+    margin-bottom: 10px;
+    border: 1px solid var(--cor-clara);
+    
 }

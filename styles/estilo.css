@@ -41,10 +41,29 @@ main #increvase-formulario{
     margin: 20px;
 }
 
+
+main #increvase-formulario{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 15px;
+}
+
+main #increvase-formulario input{
+    display: block;
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid var(--cor-clara);
+    border-radius: 8px;
+    width: 350px;
+}
+
+
 main #increvase-formulario button{
     margin: 10px;
-    /* display block deixa o bagulho em bloco */
-    padding: 6px;
+    padding: 8px;
     border: none;
     outline: none;
     border-radius: 10px;

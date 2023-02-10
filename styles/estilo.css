@@ -1,5 +1,6 @@
 :root{
     --cor-azulzinho: #D8F1FB;
+    --cor-preta: #000000;
 
 
 }
@@ -10,14 +11,15 @@
     transition: all 1s;
 }
 
-#banner{
+#header{
     background-color: var(--cor-azulzinho);
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
-#banner nav a{
-    
-
+header nav a{
+    text-decoration: none;
+    color: var(--cor-preta);
 }
+

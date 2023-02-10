@@ -1,7 +1,7 @@
 :root{
     --cor-azulzinho: #D8F1FB;
     --cor-preta: #000000;
-
+    --cor-rosa:#EA1C81;
 
 }
 
@@ -11,15 +11,42 @@
     transition: all 1s;
 }
 
-#header{
+#banner{
     background-color: var(--cor-azulzinho);
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px;
 }
 
-header nav a{
+#banner nav a{
     text-decoration: none;
     color: var(--cor-preta);
 }
 
+#banner nav a:hover{
+    background-color: var(--cor-rosa);
+    color: var(--cor-branca);
+    border-radius: 15px;
+    padding: 7px;
+}
+
+main #inscreva {
+    text-align: center;
+    margin: 100px;
+}
+
+main #increvase-formulario{
+    margin: 20px;
+}
+
+main #increvase-formulario button{
+    margin: 10px;
+    /* display block deixa o bagulho em bloco */
+    padding: 8px;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid black;
+    border-radius: 10px;
+    width: 350px;
+}

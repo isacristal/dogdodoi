@@ -1,0 +1,76 @@
+:root{
+    --cor-preta: black;
+    --cor-branca: white;
+    --cor-topo: #D8F1FB;
+    --cor--rosa: #EA1C81;
+    --cor-verdinho:#1CF365;
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    transition: all 1s
+}
+
+#banner{
+    background-color: var(--cor-topo);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+}
+
+#banner nav a{
+    text-decoration: none;
+    color: var(--cor-preta);
+}
+
+#banner nav a:hover{
+    background-color: var(--cor--rosa); 
+    color: var(--cor-branca);
+    padding: 15px;
+    border-radius: 15px;
+}
+
+/* main */
+main #registrarUmaConsulta h1{
+    padding: 15px;
+}
+
+main #registrese-divisao input{
+    border: 1px solid black;
+    border-radius: 10px;
+} 
+
+main .form-consulta #registrese-divisao {
+    display: grid;
+    grid-template-columns: 3fr 1fr 1fr;
+    padding: 5px;
+}
+
+main .form-consulta label {
+    display: block;
+    padding: 10px 5px;
+}
+
+main .form-consulta input,
+main .form-consulta textarea {
+    padding: 13px !important;
+    width: calc(100% - 40px);
+    margin: 0px;
+}
+
+main .form-consulta button{
+    padding: 10px;
+    border: none;
+    width: 170px;
+    border-radius: 15px;
+    background-color: var(--cor-verdinho);
+    color: var(--cor-branca);
+    cursor: pointer;
+}
+
+main .form-consulta .botoes .btn-vermelho{
+    background-color: red;
+    margin: 0px 50px;
+}

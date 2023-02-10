@@ -51,6 +51,7 @@ main #increvase-formulario button{
     width: 350px;
     background-color: var(--cor-rosa);
     color: var(--cor-branca);
+    cursor: pointer;
 }
 
 main .inscreva-formulario-email input{
@@ -72,5 +73,4 @@ main .inscreva-formulario-senha input{
     width: 350px;
     margin-bottom: 10px;
     border: 1px solid var(--cor-clara);
-    
 }

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/registrarconsulta.css">
+    <title>registrar uma consulta</title>
+</head>
+<body>
+    <!-- header -->
+    <header id="banner">
+        <img src="../img/logodog.png" alt="">
+        <nav>
+            <a href="index.html">Sair</a>
+        </nav>
+    </header>
+
+    <!-- main -->
+    <main>
+        <section id="registrar">
+            <div id="registrarUmaConsulta">
+                <h1>Registrar uma consulta</h1>
+            </div>
+
+            <form action="" class="form-consulta">
+                <div id="registrese-divisao">
+                    <div class="nomeCliente">
+                        <label for="nome">Nome completo do cliente</label>
+                        <input type="text" name="nome" id="nome" required>
+                    </div>
+                    <div class="dataConsulta">
+                        <label for="data">Data Consulta</label>
+                        <input type="date" name="data" id="data" required>
+                    </div>
+                    <div class="horaConsulta">
+                        <label for="hora">Hora Consulta</label>
+                        <input type="time" name="hora" id="hora" required>
+                    </div>
+                </div>
+
+                <div>
+                    <label for="test">Observações adicionais</label>
+                    <textarea name="observações adicionais" id="ObservaçõesAdicionais" cols="10" rows="15"></textarea>
+                </div>
+    
+                <div class="botoes">
+                    <button type="submit" class="btn-verde">Salvar</button>
+                    <button type="submit" class="btn-vermelho">Cancelar</button>
+                </div>
+            </form>
+        </section>
+
+    </main>
+</body>
+</html>

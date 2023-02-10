@@ -9,7 +9,7 @@
     padding: 0px;
 }
 
-#header{
+#header-outro{
     background-color: var(--cor-top);
     display: flex;
     justify-content: space-between;

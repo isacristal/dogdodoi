@@ -18,3 +18,49 @@
          display: block;
     }
 }
+
+@media(max-width: 552px){
+    main .form-consulta #registrese-divisao
+    {
+        display: block;
+    }
+
+}
+
+@media(max-width: 400px){
+    main #increvase-formulario button{
+        display: block;
+        width: 100%;
+        
+    }
+}
+
+@media(max-width: 400px){
+    main #increvase-formulario button{
+        width: 90%;
+    }
+}
+
+@media(max-width: 400px){
+    main #inscreva{
+        margin: auto;
+    }
+}
+
+@media(max-width: 400px){
+    main #increvase-formulario input{
+        width: 100%;
+    }
+}
+
+@media(max-width: 400px){
+    main #form-formulario input{
+        width: 100%;
+    }
+}
+
+@media(max-width: 405px){
+    main #form-formulario .registra-se button{
+        width: 100%;
+    }
+}

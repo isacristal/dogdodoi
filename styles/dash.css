@@ -46,6 +46,7 @@ main #menu button{
     width: 250px;
     background-color: var(--cor-rosa);
     color: var(--cor-branca);
+    cursor: pointer;
 }
 
 main #marcacoes{
@@ -54,8 +55,6 @@ main #marcacoes{
     
     
 }
-
-
 
 .dash {
     display: grid;

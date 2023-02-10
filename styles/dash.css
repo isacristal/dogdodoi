@@ -12,7 +12,7 @@
     transition: all 1s;
 }
 
-#banner{
+#cabecalho{
     background-color: var(--cor-azulzinho);
     display: flex;
     justify-content: space-between;
@@ -20,55 +20,42 @@
     padding: 15px;
 }
 
-#banner nav a{
+#cabecalho nav a{
     text-decoration: none;
     color: var(--cor-preta);
 }
 
-#banner nav a:hover{
+#cabecalho nav a:hover{
     background-color: var(--cor-rosa);
     color: var(--cor-branca);
     border-radius: 15px;
     padding: 7px;
 }
 
-main #inscreva {
-    text-align: center;
-    margin: 100px;
+main #menu{
+    background-color: var(--cor-azulzinho);
+    border-radius: 10px;
 }
 
-main #increvase-formulario{
-    margin: 20px;
-}
-
-
-main #increvase-formulario{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    padding: 15px;
-}
-
-main #increvase-formulario input{
-    display: block;
-    padding: 8px 0px;
-    border: none;
-    outline: none;
-    border-bottom: 1px solid var(--cor-clara);
-    border-radius: 8px;
-    width: 350px;
-}
-
-
-main #increvase-formulario button{
+main #menu button{
     margin: 10px;
     padding: 8px;
     border: none;
     outline: none;
     border-radius: 10px;
-    width: 350px;
+    width: 250px;
     background-color: var(--cor-rosa);
     color: var(--cor-branca);
 }
 
+main #marcacoes{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    
+}
+
+.dash {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    height: 100vh;
+}
